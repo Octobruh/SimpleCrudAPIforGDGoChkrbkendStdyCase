@@ -1,0 +1,22 @@
+{
+  "name": "thesimplecrud",
+  "version": "1.0.0",
+  "main": "testo.js",
+  "scripts": {
+    "testo": "echo \"Error: no test specified\" && exit 1",
+    "runtesto": "node testo.js",
+    "dev": "nodemon testo.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongodb": "^6.10.0",
+    "mongoose": "^8.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
