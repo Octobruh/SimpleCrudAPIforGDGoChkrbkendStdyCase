@@ -111,7 +111,8 @@ app.delete('/api/books/:id', async (req, res) => {
 	}
 });
 
-mongoose.connect("mongodb+srv://MAthallahY:<sekretpassword>@cluster0formyfirstapi.syvza.mongodb.net/Node-API?retryWrites=true&w=majority&appName=Cluster0formyFirstAPI")
+//for database
+mongoose.connect("mongodb+srv://MAthallahY:nOgg0M7TH0x6Ng20@cluster0formyfirstapi.syvza.mongodb.net/Node-API?retryWrites=true&w=majority&appName=Cluster0formyFirstAPI")
 .then(() => {
 	console.log("Connected to database");
 	app.listen(3000, () => {
